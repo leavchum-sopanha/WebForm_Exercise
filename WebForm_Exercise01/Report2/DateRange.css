@@ -1,0 +1,53 @@
+﻿body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-box {
+}
+
+/*Header*/
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-left p, .header-right p {
+    margin: 0;
+    margin-right: 3%;
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+.btn {
+    background-color:limegreen;
+    color: white;
+    margin-left: 2%;
+    transition: opacity 0.15s;
+}
+.btn:hover {
+    color: lightgray;
+    opacity: 0.8;
+}
+.btn:active{
+    color: gray;
+    opacity: 0.6;
+}
+
+/*Report*/
+.container-report {
+
+}
